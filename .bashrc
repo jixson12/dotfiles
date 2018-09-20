@@ -51,7 +51,6 @@ function gitmm() {
     fi
 }
 
-
 alias ls='ls -GH'
 alias ll='ls -al'
 
