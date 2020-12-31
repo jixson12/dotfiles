@@ -1,6 +1,6 @@
 call plug#begin('~/.vim/plugged')
 
-Plug 'beigebrucewayne/skull-vim'
+Plug 'rafi/awesome-vim-colorschemes'
 
 call plug#end()
 
@@ -8,6 +8,11 @@ command Q q
 " :W sudo saves the file 
 " (useful for handling the permission-denied error)
 command W w !sudo tee % > /dev/null
+
+colorscheme alduin
+set background=dark
+set encoding=utf8
+set ffs=unix,dos,mac
 
 set nu 
 set ruler
@@ -23,11 +28,6 @@ set noerrorbells
 set novisualbell
 set t_vb=
 set tm=500
-
-colorscheme moody
-set background=dark
-set encoding=utf8
-set ffs=unix,dos,mac
 
 set nobackup
 set nowb
